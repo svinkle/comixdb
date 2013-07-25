@@ -2,7 +2,6 @@
 
 ##UPDATE:
 Comic Vine kindly asked me to cease operations, but I'm keeping the source code up for anyone who's interested.
-http://svinkle.blogspot.ca/2012/12/just-released-sort-of-comixdb-beta.html
 
 ##ABOUT:
 Accessing the ComicVine.com API to deliver a device agnostic web app to search their massive database of comic awesome.
