@@ -13,4 +13,4 @@ ComixDB is currently in Beta status. Current feature set includes:
 * Coming soon: Search by Location, Team, Publisher, and Movies!
 
 ##STATUS:
-No longer in development, still works with limited functionality.
+No longer in development, still works with limited functionality: http://svinkle.github.io/comixdb/
