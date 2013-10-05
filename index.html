@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>ComixDB</title>
+        <meta name="description" content="Scott Vinkle's personal home page.">
+        <meta name="viewport" content="width=device-width">
+
+        <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 9]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+		<div id="viewport" class="viewport"></div>
+
+		<div class="container">
+			<header class="header clearfix">
+				<h1 class="title"><a href="index.html">ComixDB</a></h1>
+				<form name="search_form" id="search_form" class="search_form" method="get" action="">
+					<span aria-hidden="true" class="icon-search"></span>
+					<div class="search_container"><input type="text" name="search" id="search_field" class="search_field" autocomplete="off" /></div>
+					<a href="#" id="clear_search" class="clear_search"><span aria-hidden="true" class="icon-cancel"></span></a>
+				</form>
+				<div class="beta_tag">Beta!</div>
+			</header>
+
+			<div id="results">
+				<div class="intro">
+					<p><strong>ComixDB</strong> is currently in Beta status. Current feature set includes:</p>
+					<ul>
+						<li>Search for you favorite Super Heroes!</li>
+						<li>Works on your desktop computer, mobile phone, HDTV (including all major game consoles), your car dashboard, and even your toaster!</li>
+						<li>Coming soon: Search by Location, Team, Publisher, and Movies!</li>
+					</ul>
+				</div>
+				<ul class="intro_heroes clearfix">
+					<li><a href="?character=1699"><img src="http://media.comicvine.com/uploads/9/99507/2048314-bm_cv3_var_super.jpg" alt="Batman" /><span>Batman&nbsp;&raquo;</span></a></li>
+					<li><a href="?character=1807"><img src="http://media.comicvine.com/uploads/2/23732/2642305-1349994575_super.jpg" alt="Superman" /><span>Superman&nbsp;&raquo;</span></a></li>
+					<li><a href="?character=1699"><img src="http://media.comicvine.com/uploads/3/30247/2686054-jla8140_super.jpg" alt="Wonder Woman" /><span
+					>Wonder Woman&nbsp;&raquo;</span></a></li>
+					<li><a href="?character=11202"><img src="http://media.comicvine.com/uploads/7/71161/2077977-dcuo_legends_17_mahnke_tayl_super.jpg" alt="Green Lantern" /><span>Green Lantern&nbsp;&raquo;</span></a></li>
+				</ul>
+			</div>
+			<a href="#" id="search_more" class="search_more">More</a>
+
+			<footer class="clearfix"><strong>ComixDB</strong> coding by <a href="http://www.twitter.com/svinkle" target="_blank">@svinkle</a>. Data created and powered by <a href="http://www.comicvine.com/" target="_blank">Comic Vine</a>.</footer>
+
+		</div>
+
+		<div class="loading" style="display: none;">
+			<div class="spinner"></div>
+		</div>
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.3.min.js"><\/script>')</script>
+
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+        <script>
+            /*
+            var _gaq=[['_setAccount',''],['_trackPageview']];
+            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+            s.parentNode.insertBefore(g,s)}(document,'script'));
+            */
+        </script>
+    </body>
+</html>
